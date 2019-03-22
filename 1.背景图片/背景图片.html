@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/背景图片.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="header">
+			<img src="imge/1.jpg" />
+			<img src="imge/2.jpg" />
+			<img src="imge/3.jpg" />
+			<img src="imge/4.jpg" />
+			<img src="imge/5.jpg" />
+		</div>
+		<script>
+			var img=document.getElementsByTagName("img");
+			var header=document.getElementsByClassName("header")[0];
+			img[0].onclick=function(){
+				document.body.style.backgroundImage="url(imge/1.jpg)";
+			}
+			img[1].onclick=function(){
+				document.body.style.backgroundImage="url(imge/2.jpg)";
+			}
+			img[2].onclick=function(){
+				document.body.style.backgroundImage="url(imge/3.jpg)";
+			}
+			img[3].onclick=function(){
+				document.body.style.backgroundImage="url(imge/4.jpg)";
+			}
+			img[4].onclick=function(){
+				document.body.style.backgroundImage="url(imge/5.jpg)";
+			}
+		</script>
+	</body>
+</html>

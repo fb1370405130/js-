@@ -1,0 +1,13 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	width: 1000px;
+	height: 200px;
+	margin: 100px auto;
+}
+.header img{
+	float: left;
+	width: 200px;
+}
